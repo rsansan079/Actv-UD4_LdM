@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE biblioteca SYSTEM "Biblioteca.dtd">
+<biblioteca>
+
+    <libro>
+        <cod_libro>22622</cod_libro>
+        <titulo>100 anios de Soledad</titulo>
+        <editorial>Sudamericana</editorial>
+        <edicion>ilustrada</edicion>
+        <ISBN>978-84-9759-220-8</ISBN>
+        <num_pg>496</num_pg>
+        <autor>Gabriel Garcia</autor>
+    </libro>
+
+    <libro>
+        <cod_libro>33643</cod_libro>
+        <titulo>Poesias Completas</titulo>
+        <editorial>Debolsillo</editorial>
+        <edicion>ilustrada</edicion>
+        <ISBN>9788467021509</ISBN>
+        <num_pg>346</num_pg>
+        <autor>Antonio Machado</autor>
+    </libro>
+
+    <libro>
+        <cod_libro>54732</cod_libro>
+        <titulo>Fuenteovejuna</titulo>
+        <editorial>Verbum</editorial>
+        <edicion>ilustrada</edicion>
+        <ISBN>9788467528572</ISBN>
+        <num_pg>508</num_pg>
+        <autor>Lope de Vega</autor>
+    </libro>
+
+    <libro>
+        <cod_libro>12543</cod_libro>
+        <titulo>La Casa de los Espiritus</titulo>
+        <editorial>Agapea</editorial>
+        <edicion>ilustrada</edicion>
+        <ISBN>9788483462034</ISBN>
+        <num_pg>358</num_pg>
+        <autor>Lope de Vega</autor>
+    </libro>
+
+    <libro>
+        <cod_libro>99678</cod_libro>
+        <titulo>El Buscon</titulo>
+        <editorial>Octaedro</editorial>
+        <edicion>ilustrada</edicion>
+        <ISBN>9788466792479</ISBN>
+        <num_pg>523</num_pg>
+        <autor>Quevedo</autor>
+    </libro>
+
+    <libro>
+        <cod_libro>93469</cod_libro>
+        <titulo>don quijote de la mancha</titulo>
+        <editorial>Urbano Manini</editorial>
+        <edicion>ilustrada</edicion>
+        <ISBN>9788493806125</ISBN>
+        <num_pg>789</num_pg>
+        <autor>Cervantes</autor>
+    </libro>
+
+    <libro>
+        <cod_libro>20638</cod_libro>
+        <titulo>hamlet</titulo>
+        <editorial>Espasa</editorial>
+        <edicion>ilustrada</edicion>
+        <ISBN>9788467033380</ISBN>
+        <num_pg>326</num_pg>
+        <autor>Shakespeare</autor>
+    </libro>
+
+    <libro>
+        <cod_libro>43334</cod_libro>
+        <titulo>las almas muertas</titulo>
+        <editorial>ALIANZA</editorial>
+        <edicion>ilustrada</edicion>
+        <ISBN>9788420653419</ISBN>
+        <num_pg>456</num_pg>
+        <autor>Nikolai Gogol</autor>
+    </libro>
+
+    <libro>
+        <cod_libro>72101</cod_libro>
+        <titulo>5 horas con mario</titulo>
+        <editorial>Destino</editorial>
+        <edicion>ilustrada</edicion>
+        <ISBN>9788423342402</ISBN>
+        <num_pg>332</num_pg>
+        <autor>Miguel Delibes</autor>
+    </libro>
+
+    <libro>
+        <cod_libro>93993</cod_libro>
+        <titulo>Tan poca vida</titulo>
+        <editorial>ALIANZA</editorial>
+        <edicion>ilustrada</edicion>
+        <ISBN>9788423366402</ISBN>
+        <num_pg>221</num_pg>
+        <autor>Hanya Yanagihara</autor>
+    </libro>
+</biblioteca>

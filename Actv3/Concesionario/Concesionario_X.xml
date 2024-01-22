@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE Concesionario SYSTEM "S/SCconcesionario.xsd">
+    <concesionario>
+    <coche>
+      <codigo>001</codigo>
+      <marca>Ford</marca>
+      <modelo>Focus</modelo>
+      <matricula>3312HJI</matricula>
+      <potencia>120 cv</potencia>
+      <plazas>5</plazas>
+      <puertas>4</puertas>
+    </coche>
+    <coche>
+      <codigo>002</codigo>
+      <marca>Merceds</marca>
+      <modelo>sl 55 amg</modelo>
+      <matricula>2233EXZ</matricula>
+      <potencia>532 cv</potencia>
+      <plazas>2</plazas>
+      <puertas>3</puertas>
+    </coche>
+    </concesionario>

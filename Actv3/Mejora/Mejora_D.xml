@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE fruteria SYSTEM "Mejora.dtd">
+    <fruteria>
+    <fruta>
+      <codigo>001</codigo>
+      <tipo>Acida</tipo>
+      <color>Naranja</color>
+      <arbol>Naranjo</arbol>
+      <proveniencia>Asia</proveniencia>
+      <clasificacion>Sapindales</clasificacion>
+      <cultivo>citrico</cultivo>
+    </fruta>
+    
+    <fruta>
+        <codigo>002</codigo>
+        <tipo>Dulce</tipo>
+        <color>Roja/Verde</color>
+        <arbol>Manzano</arbol>
+        <proveniencia>Asia</proveniencia>
+        <clasificacion>Malus </clasificacion>
+        <cultivo>pomácea</cultivo>
+      </fruta>
+    </fruteria>

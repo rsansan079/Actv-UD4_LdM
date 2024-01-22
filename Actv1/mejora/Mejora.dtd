@@ -1,0 +1,10 @@
+<!ELEMENT actores (actor+)>
+<!ELEMENT actor (nombre, apellido1, apellido2, fecha_nac, edad, peliculas, oscar)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT apellido1 (#PCDATA)>
+<!ELEMENT apellido2 (#PCDATA)>
+<!ELEMENT fecha_nac (#PCDATA)>
+<!ELEMENT edad (#PCDATA)>
+<!ELEMENT peliculas (#PCDATA)>
+<!ELEMENT oscar (#PCDATA)>
+    

@@ -1,0 +1,9 @@
+<!ELEMENT fruteria (fruta+)>
+<!ELEMENT fruta (codigo, marca, modelo, matricula, potencia, plazas, puertas)>
+<!ELEMENT codigo (#PCDATA)>
+<!ELEMENT tipo (#PCDATA)>
+<!ELEMENT color (#PCDATA)>
+<!ELEMENT arbol (#PCDATA)>
+<!ELEMENT proveniencia (#PCDATA)>
+<!ELEMENT clasificacion (#PCDATA)>
+<!ELEMENT cultivo (#PCDATA)>

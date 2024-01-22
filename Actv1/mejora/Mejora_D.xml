@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE actores SYSTEM "Mejora.dtd">
+<actores>
+
+    <actor>
+        <nombre>Brad</nombre>
+        <apellido1>Pitt</apellido1>
+        <apellido2></apellido2>
+        <fecha_nac>18/12/1963</fecha_nac>
+        <edad>60</edad>
+        <peliculas>Troya</peliculas>
+        <oscar>2</oscar>
+    </actor>
+
+    <actor>
+        <nombre>Tom</nombre>
+        <apellido1>Ellis</apellido1>
+        <apellido2></apellido2>
+        <fecha_nac>17/11/1978</fecha_nac>
+        <edad>45</edad>
+        <peliculas>Rush</peliculas>
+        <oscar>0</oscar>
+    </actor>
+
+    <actor>
+        <nombre>Jonathan </nombre>
+        <apellido1>Bernthal </apellido1>
+        <apellido2></apellido2>
+        <fecha_nac>20/09/1976</fecha_nac>
+        <edad>47</edad>
+        <peliculas>Fury</peliculas>
+        <oscar>0</oscar>
+    </actor>
+
+    <actor>
+        <nombre>Christian </nombre>
+        <apellido1>Bale </apellido1>
+        <apellido2></apellido2>
+        <fecha_nac>30/01/1974</fecha_nac>
+        <edad>49</edad>
+        <peliculas>American Psycho</peliculas>
+        <oscar>1</oscar>
+    </actor>
+
+    <actor>
+        <nombre>Cillian</nombre>
+        <apellido1>Murphy </apellido1>
+        <apellido2></apellido2>
+        <fecha_nac>25/05/1976</fecha_nac>
+        <edad>47</edad>
+        <peliculas>Oppenheimer</peliculas>
+        <oscar>0</oscar>
+    </actor>
+
+    <actor>
+        <nombre>Penelope </nombre>
+        <apellido1>Cruz </apellido1>
+        <apellido2>Sanchez </apellido2>
+        <fecha_nac>28/04/1974</fecha_nac>
+        <edad>49</edad>
+        <peliculas>Ferrari</peliculas>
+        <oscar>1</oscar>
+    </actor>
+
+    <actor>
+        <nombre>Sofia </nombre>
+        <apellido1>Vergara </apellido1>
+        <apellido2>Davila</apellido2>
+        <fecha_nac>10/07/1972</fecha_nac>
+        <edad>51</edad>
+        <peliculas>Pitufos</peliculas>
+        <oscar>0</oscar>
+    </actor>
+
+    <actor>
+        <nombre>Natalie </nombre>
+        <apellido1>Portman </apellido1>
+        <apellido2></apellido2>
+        <fecha_nac>9/06/1981</fecha_nac>
+        <edad>42</edad>
+        <peliculas>Thor</peliculas>
+        <oscar>1</oscar>
+    </actor>
+
+    <actor>
+        <nombre>Margot</nombre>
+        <apellido1>Robbie </apellido1>
+        <apellido2></apellido2>
+        <fecha_nac>2/07/1990</fecha_nac>
+        <edad>33</edad>
+        <peliculas>Barbie</peliculas>
+        <oscar>2</oscar>
+    </actor>
+
+    <actor>
+        <nombre>Jennifer </nombre>
+        <apellido1>Aniston</apellido1>
+        <apellido2></apellido2>
+        <fecha_nac>11/02/1969</fecha_nac>
+        <edad>54</edad>
+        <peliculas>Murder Mistery</peliculas>
+        <oscar>0</oscar>
+    </actor>
+</actores>

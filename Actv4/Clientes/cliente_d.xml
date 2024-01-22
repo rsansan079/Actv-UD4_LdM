@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE cliente SYSTEM ".dtd">
+
+<cliente codigo="">
+<descripcion></descripcion>
+<numVivienda></numVivienda>
+<vivienda ID=>
+    <coste></coste>
+    <resumen></resumen>
+    <plazo></plazo>
+</vivienda>
+</cliente>
