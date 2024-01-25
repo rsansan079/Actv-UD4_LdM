@@ -1,26 +1,23 @@
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
 
-  <xs:element name="clientes">
+  <xs:element name="cliente">
     <xs:complexType>
       <xs:sequence>
-        <xs:element name="cliente" type="clienteType" minOccurs="1" maxOccurs="unbounded"/>
+        <xs:element name="descCliente" type="xs:string"/>
+        <xs:element name="numero" type="xs:integer"/>
+        <xs:element name="vivienda" maxOccurs="unbounded">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="coste" type="xs:decimal"/>
+              <xs:element name="resumen" type="xs:string"/>
+              <xs:element name="plazo" type="xs:integer"/>
+            </xs:sequence>
+            <xs:attribute name="ID" type="xs:string" use="required"/>
+          </xs:complexType>
+        </xs:element>
       </xs:sequence>
+      <xs:attribute name="codigo" type="xs:string" use="required"/>
     </xs:complexType>
   </xs:element>
-
-  <xs:complexType name="clienteType">
-    <xs:sequence>
-      <xs:element name="sede" type="xs:string"/>
-      <xs:element name="empleado" type="xs:string"/>
-      <xs:element name="fecha_alta" type="xs:string"/>
-      <xs:element name="codigo_cliente" type="xs:string"/>
-      <xs:element name="descripcion" type="xs:string" minOccurs="0"/>
-      <xs:element name="num_viviendas" type="xs:integer"/>
-      <xs:element name="costo_vivienda" type="xs:decimal"/>
-      <xs:element name="resumen_viviendas" type="xs:string"/>
-      <xs:element name="plazo_hacienda" type="xs:string" minOccurs="0"/>
-    </xs:sequence>
-    <xs:attribute name="codigo" type="xs:string" use="required"/>
-  </xs:complexType>
 
 </xs:schema>

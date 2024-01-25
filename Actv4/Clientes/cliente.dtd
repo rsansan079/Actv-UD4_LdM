@@ -1,14 +1,13 @@
 
-<!ELEMENT clientes (cliente+)>
-<!ELEMENT cliente (sede, empleado, fecha_alta, codigo_cliente, descripcion, num_viviendas, costo_vivienda, resumen_viviendas, plazo_hacienda)>
-<!ELEMENT sede (#PCDATA)>
-<!ELEMENT empleado (#PCDATA)>
-<!ELEMENT fecha_alta (#PCDATA)>
-<!ELEMENT codigo_cliente (#PCDATA)>
-<!ELEMENT descripcion (#PCDATA)>
-<!ELEMENT num_viviendas (#PCDATA)>
-<!ELEMENT costo_vivienda (#PCDATA)>
-<!ELEMENT resumen_viviendas (#PCDATA)>
-<!ELEMENT plazo_hacienda (#PCDATA)>
+<!ELEMENT cliente (descCliente, numero, vivienda+)>
+<!ATTLIST cliente codigo CDATA #REQUIRED>
 
-<!ATTLIST sede codigo CDATA #REQUIRED>
+<!ELEMENT descCliente (#PCDATA)>
+<!ELEMENT numero (#PCDATA)>
+
+<!ELEMENT vivienda (coste, resumen, plazo)>
+<!ATTLIST vivienda ID CDATA #REQUIRED>
+
+<!ELEMENT coste (#PCDATA)>
+<!ELEMENT resumen (#PCDATA)>
+<!ELEMENT plazo (#PCDATA)>

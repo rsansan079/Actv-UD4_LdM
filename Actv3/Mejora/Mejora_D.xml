@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
-<!DOCTYPE fruteria SYSTEM "Mejora.dtd">
+<!DOCTYPE fruteria SYSTEM "..\..\Actv2\\Mejora\Mejora.dtd">
     <fruteria>
     <fruta>
       <codigo>001</codigo>

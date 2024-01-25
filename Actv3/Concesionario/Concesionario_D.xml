@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
-<!DOCTYPE concesionario SYSTEM "Concesionario.dtd">
+<!DOCTYPE concesionario SYSTEM "..\..\Actv2\Concesionario\Concesionario.dtd">
     <concesionario>
     <coche>
       <codigo>001</codigo>

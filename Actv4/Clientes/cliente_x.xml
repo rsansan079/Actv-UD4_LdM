@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
-<!DOCTYPE cliente SYSTEM "cliente.dtd">
+<!DOCTYPE cliente SYSTEM "/cliente.xsd">
 
 <cliente codigo="AAA-112">
 <descCliente>Insolvente</descCliente>
