@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE coche SYSTEM "mejora.dtd">
+
+<coche codigo="ABC-123">
+    <descCoche>Sedán</descCoche>
+    <plazas>5</plazas>
+    <Tipo ID="1">
+        <potencia>150.5</potencia>
+        <marca>Toyota</marca>
+        <matricula>1234ABC</matricula>
+    </Tipo>
+    <Tipo ID="2">
+        <potencia>120.3</potencia>
+        <marca>Honda</marca>
+        <matricula>6789MKL</matricula>
+    </Tipo>
+</coche>

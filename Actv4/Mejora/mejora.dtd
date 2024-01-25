@@ -1,0 +1,12 @@
+<!ELEMENT coche (descCoche, plazas, Tipo+)>
+<!ATTLIST coche codigo CDATA #REQUIRED>
+
+<!ELEMENT descCoche (#PCDATA)>
+<!ELEMENT plazas (#PCDATA)>
+
+<!ELEMENT Tipo (potencia, marca, matricula)>
+<!ATTLIST Tipo ID CDATA #REQUIRED>
+
+<!ELEMENT potencia (#PCDATA)>
+<!ELEMENT marca (#PCDATA)>
+<!ELEMENT matricula (#PCDATA)>
