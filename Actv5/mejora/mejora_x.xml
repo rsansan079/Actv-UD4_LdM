@@ -14,7 +14,6 @@
         <Titulo>Cien Años de Soledad</Titulo>
         <Autor>Gabriel García Márquez</Autor>
         <Editorial>Critica</Editorial>
-        <!-- Observaciones no obligatorias -->
         <Precio>19.95</Precio>
     </libro>
 </libros>
