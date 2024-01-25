@@ -1,0 +1,22 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+  <xs:element name="libros">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="libro" maxOccurs="unbounded" minOccurs="0">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ISBN" type="xs:string"/>
+              <xs:element name="Titulo" type="xs:string"/>
+              <xs:element name="Autor" type="xs:string"/>
+              <xs:element name="Editorial" type="xs:string"/>
+              <xs:element name="Observaciones" type="xs:string" minOccurs="0"/>
+              <xs:element name="Precio" type="xs:decimal"/>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+
+</xs:schema>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE libros SYSTEM "/mejora.xsd">
+<libros>
+    <libro>
+        <ISBN>978-3-16-148410-0</ISBN>
+        <Titulo>El Señor de los Anillos</Titulo>
+        <Autor>J.R.R. Tolkien</Autor>
+        <Editorial>Minotauro</Editorial>
+        <Observaciones>Edición especial con ilustraciones.</Observaciones>
+        <Precio>25.99</Precio>
+    </libro>
+    <libro>
+        <ISBN>978-0-385-00855-2</ISBN>
+        <Titulo>Cien Años de Soledad</Titulo>
+        <Autor>Gabriel García Márquez</Autor>
+        <Editorial>Critica</Editorial>
+        <!-- Observaciones no obligatorias -->
+        <Precio>19.95</Precio>
+    </libro>
+</libros>

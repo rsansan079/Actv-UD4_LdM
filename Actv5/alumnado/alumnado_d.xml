@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE alumnado SYSTEM "alumnado.dtd">
+
+<alumnado>
+    <alumno>
+        <NIF>123456789A</NIF>
+        <Resultado>apto</Resultado>
+        <Observaciones>Alumno bueno en programación.</Observaciones>
+        <IP>192.168.1.2</IP>
+    </alumno>
+    <alumno>
+        <NIF>987654321B</NIF>
+        <Resultado>No apto</Resultado>
+        <IP>00:1A:2B:3C:4D:5E</IP>
+    </alumno>
+</alumnado>
