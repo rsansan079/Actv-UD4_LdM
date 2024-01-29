@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE bach SYSTEM "mejora.dtd">
+
+<bach>
+
+    <asignatura>
+        <nombre>Biología</nombre>
+                <contenidos>
+                    <unidad tipo="Teórica">1.Célula eucariota y procariota
+                        <descripcion>Se aprenden todos los componentes de las células y sus funciones</descripcion>
+                    </unidad>
+                    <unidad tipo="Práctica">Los órganos humanos
+                        <descripcion>Se hacen practicas con órganos de cerdo</descripcion>
+                    </unidad>
+            </contenidos>
+        </asignatura>
+
+    <modulo>
+        <nombre>Historia</nombre>
+           <contenidos>
+                <unidad tipo="Teórica">Tema 1. Guerra civil
+                    <descripcion> Conocer lo ocurrido en el periódo de la guerra civil española
+                    </descripcion>
+                </unidad>
+                <unidad tipo="Práctica">Lectura La Mula
+                    <descripcion>Examen practico de la lectura
+                        </descripcion>
+                </unidad>
+           </contenidos>
+    </modulo>
+</bach>

@@ -1,0 +1,7 @@
+<!ELEMENT cfgs (modulo+)>
+<!ELEMENT modulo (nombre, contenidos)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT contenidos (unidad+)>
+<!ELEMENT unidad (descripcion)>
+<!ATTLIST unidad tipo CDATA #REQUIRED>
+<!ELEMENT descripcion (#PCDATA)>

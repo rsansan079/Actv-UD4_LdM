@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE cfgs SYSTEM "dam.dtd">
+
+<cfgs>
+
+    <modulo>
+        <nombre>Entornos de desarrollo</nombre>
+                <contenidos>
+                    <unidad tipo="Teórica">1.Lenguajes de programación. Herramientas. Ciclo de desarrollo del software
+                        <descripcion>Se aprenden la mayoría de tipos de lenguajes de programación que hay y para que uso son adeccuados</descripcion>
+                    </unidad>
+                    <unidad tipo="Práctica">2.IDE. Entornos de desarrollo integrados
+                        <descripcion>aplicación de software que ayuda a los programadores a desarrollar</descripcion>
+                    </unidad>
+                    <unidad tipo="Práctica">3.CASE. Ingeniería del software asistida por ordenador
+                        <descripcion>uso de software para simular el rendimiento con el objetivo de mejorar los productos</descripcion>
+                    </unidad>
+            </contenidos>
+    </modulo>
+
+    <modulo>
+        <nombre>Base de Datos</nombre>
+           <contenidos>
+                <unidad tipo="Teórica">Tema 1. Almacenamiento de la información
+                    <descripcion> Conocer características principales y tipos de ficheros.
+                    </descripcion>
+                </unidad>
+                <unidad tipo="Práctica">Tema 2. Bases de Datos Relacionales
+                    <descripcion>La base de datos relacional (BDR) es un tipo de base de datos (BD) implementada bajo las
+                        especificaciones del modelo relacional.
+                        </descripcion>
+                </unidad>
+           </contenidos>
+    </modulo>
+</cfgs>
