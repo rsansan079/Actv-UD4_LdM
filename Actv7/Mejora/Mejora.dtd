@@ -1,0 +1,8 @@
+<!ELEMENT informe (fecha, ciudades)>
+<!ELEMENT fecha (#PCDATA)>
+<!ELEMENT ciudades (ciudad+)>
+<!ELEMENT ciudad (nombre, semestre+)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT semestre (CochesVendidos)>
+<!ATTLIST semestre numero CDATA #REQUIRED>
+<!ELEMENT CochesVendidos (#PCDATA)>

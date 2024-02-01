@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE informe SYSTEM "Mejora.dtd">
+
+<informe>
+    <fecha>2024-02-01</fecha>
+        <ciudades>
+            <ciudad>
+                <nombre>Jerez</nombre>
+                <semestre numero='1'>
+                    <CochesVendidos>120</CochesVendidos>
+                </semestre>
+                <semestre numero='2'>
+                    <CochesVendidos>90</CochesVendidos>
+                </semestre>
+            </ciudad>
+            <ciudad>
+                <nombre>Cádiz</nombre>
+                <semestre numero='1'>
+                    <CochesVendidos>200</CochesVendidos>
+                </semestre>
+                <semestre numero='2'>
+                    <CochesVendidos>230</CochesVendidos>
+                </semestre>
+            </ciudad>
+            <ciudad>
+                <nombre>Sevilla</nombre>
+                <semestre numero='1'>
+                    <CochesVendidos>190</CochesVendidos>
+                </semestre>
+                <semestre numero='2'>
+                    <CochesVendidos>200</CochesVendidos>
+                </semestre>
+            </ciudad>
+        </ciudades>
+</informe>

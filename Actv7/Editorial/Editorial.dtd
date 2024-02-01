@@ -1,0 +1,8 @@
+<!ELEMENT informe (fecha, regiones)>
+<!ELEMENT fecha (#PCDATA)>
+<!ELEMENT regiones (region+)>
+<!ELEMENT region (nombre, trimestre+)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT trimestre (librosVendidos)>
+<!ATTLIST trimestre numero CDATA #REQUIRED>
+<!ELEMENT librosVendidos (#PCDATA)>
