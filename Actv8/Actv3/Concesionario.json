@@ -1,0 +1,27 @@
+{
+    "concesionario": [
+        {},
+        {
+            "coche": [
+                {
+                    "codigo": "001",
+                    "marca": "Ford",
+                    "modelo": "Focus",
+                    "matricula": "3312HJI",
+                    "potencia": "120 cv",
+                    "plazas": "5",
+                    "puertas": "4"
+                },
+                {
+                    "codigo": "002",
+                    "marca": "Merceds",
+                    "modelo": "sl 55 amg",
+                    "matricula": "2233EXZ",
+                    "potencia": "532 cv",
+                    "plazas": "2",
+                    "puertas": "3"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,24 @@
+{
+    "coche": [
+        {},
+        {
+            "-codigo": "ABC-123",
+            "descCoche": "Sedán",
+            "plazas": "5",
+            "Tipo": [
+                {
+                    "-ID": "1",
+                    "potencia": "150.5",
+                    "marca": "Toyota",
+                    "matricula": "1234ABC"
+                },
+                {
+                    "-ID": "2",
+                    "potencia": "120.3",
+                    "marca": "Honda",
+                    "matricula": "6789MKL"
+                }
+            ]
+        }
+    ]
+}

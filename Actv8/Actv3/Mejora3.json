@@ -1,0 +1,27 @@
+{
+    "fruteria": [
+        {},
+        {
+            "fruta": [
+                {
+                    "codigo": "001",
+                    "tipo": "Acida",
+                    "color": "Naranja",
+                    "arbol": "Naranjo",
+                    "proveniencia": "Asia",
+                    "clasificacion": "Sapindales",
+                    "cultivo": "citrico"
+                },
+                {
+                    "codigo": "002",
+                    "tipo": "Dulce",
+                    "color": "Roja/Verde",
+                    "arbol": "Manzano",
+                    "proveniencia": "Asia",
+                    "clasificacion": "Malus ",
+                    "cultivo": "pomácea"
+                }
+            ]
+        }
+    ]
+}

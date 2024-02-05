@@ -1,31 +1,33 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
-<!DOCTYPE cfgs SYSTEM "/mejora.xsd">
+<!DOCTYPE bach SYSTEM "/mejora.xsd">
 
 <bach>
 
     <asignatura>
         <nombre>Biología</nombre>
-                <contenidos>
-                    <unidad tipo="Teórica">1.Célula eucariota y procariota
-                        <descripcion>Se aprenden todos los componentes de las células y sus funciones</descripcion>
-                    </unidad>
-                    <unidad tipo="Práctica">Los órganos humanos
-                        <descripcion>Se hacen practicas con órganos de cerdo</descripcion>
-                    </unidad>
-            </contenidos>
-        </asignatura>
+        <contenidos>
+            <unidad tipo="Teórica">
+                <titulo>1.Célula eucariota y procariota</titulo>
+                <descripcion>Se aprenden todos los componentes de las células y sus funciones</descripcion>
+            </unidad>
+            <unidad tipo="Práctica">
+                <titulo>Los órganos humanos</titulo>
+                <descripcion>Se hacen prácticas con órganos de cerdo</descripcion>
+            </unidad>
+        </contenidos>
+    </asignatura>
 
     <modulo>
         <nombre>Historia</nombre>
-           <contenidos>
-                <unidad tipo="Teórica">Tema 1. Guerra civil
-                    <descripcion> Conocer lo ocurrido en el periódo de la guerra civil española
-                    </descripcion>
-                </unidad>
-                <unidad tipo="Práctica">Lectura La Mula
-                    <descripcion>Examen practico de la lectura
-                        </descripcion>
-                </unidad>
-           </contenidos>
+        <contenidos>
+            <unidad tipo="Teórica">
+                <titulo>Tema 1. Guerra civil</titulo>
+                <descripcion>Conocer lo ocurrido en el período de la guerra civil española</descripcion>
+            </unidad>
+            <unidad tipo="Práctica">
+                <titulo>Lectura La Mula</titulo>
+                <descripcion>Examen práctico de la lectura</descripcion>
+            </unidad>
+        </contenidos>
     </modulo>
 </bach>

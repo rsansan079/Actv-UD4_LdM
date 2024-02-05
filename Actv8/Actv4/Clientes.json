@@ -1,0 +1,24 @@
+{
+    "cliente": [
+        {},
+        {
+            "-codigo": "AAA-112",
+            "descCliente": "Insolvente",
+            "numero": "10",
+            "vivienda": [
+                {
+                    "-ID": "001",
+                    "coste": "100",
+                    "resumen": "Producto muy frágil",
+                    "plazo": "10"
+                },
+                {
+                    "-ID": "002",
+                    "coste": "130",
+                    "resumen": "Producto nada frágil",
+                    "plazo": "17"
+                }
+            ]
+        }
+    ]
+}

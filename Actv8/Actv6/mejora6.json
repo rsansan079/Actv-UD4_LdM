@@ -1,0 +1,41 @@
+{
+    "bach": [
+        {},
+        {
+            "asignatura": {
+                "nombre": "Biología",
+                "contenidos": {
+                    "unidad": [
+                        {
+                            "-tipo": "Teórica",
+                            "titulo": "1.Célula eucariota y procariota",
+                            "descripcion": "Se aprenden todos los componentes de las células y sus funciones"
+                        },
+                        {
+                            "-tipo": "Práctica",
+                            "titulo": "Los órganos humanos",
+                            "descripcion": "Se hacen prácticas con órganos de cerdo"
+                        }
+                    ]
+                }
+            },
+            "modulo": {
+                "nombre": "Historia",
+                "contenidos": {
+                    "unidad": [
+                        {
+                            "-tipo": "Teórica",
+                            "titulo": "Tema 1. Guerra civil",
+                            "descripcion": "Conocer lo ocurrido en el período de la guerra civil española"
+                        },
+                        {
+                            "-tipo": "Práctica",
+                            "titulo": "Lectura La Mula",
+                            "descripcion": "Examen práctico de la lectura"
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

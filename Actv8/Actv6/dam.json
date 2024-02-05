@@ -1,0 +1,53 @@
+{
+    "cfgs": [
+        {},
+        {
+            "modulo": [
+                {
+                    "nombre": "Entornos de desarrollo",
+                    "contenidos": {
+                        "unidad": [
+                            {
+                                "-tipo": "Teórica",
+                                "numero": "1",
+                                "titulo": "Lenguajes de programación. Herramientas. Ciclo de desarrollo del software",
+                                "descripcion": "Se aprenden la mayoría de tipos de lenguajes de programación que hay y para qué uso son adecuados"
+                            },
+                            {
+                                "-tipo": "Práctica",
+                                "numero": "2",
+                                "titulo": "IDE. Entornos de desarrollo integrados",
+                                "descripcion": "Aplicación de software que ayuda a los programadores a desarrollar"
+                            },
+                            {
+                                "-tipo": "Práctica",
+                                "numero": "3",
+                                "titulo": "CASE. Ingeniería del software asistida por ordenador",
+                                "descripcion": "Uso de software para simular el rendimiento con el objetivo de mejorar los productos"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "nombre": "Base de Datos",
+                    "contenidos": {
+                        "unidad": [
+                            {
+                                "-tipo": "Teórica",
+                                "numero": "1",
+                                "titulo": "Almacenamiento de la información",
+                                "descripcion": "Conocer características principales y tipos de ficheros."
+                            },
+                            {
+                                "-tipo": "Práctica",
+                                "numero": "2",
+                                "titulo": "Bases de Datos Relacionales",
+                                "descripcion": "La base de datos relacional (BDR) es un tipo de base de datos (BD) implementada bajo las especificaciones del modelo relacional."
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    ]
+}

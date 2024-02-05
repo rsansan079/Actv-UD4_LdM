@@ -3,54 +3,42 @@
   <xs:element name="bach">
     <xs:complexType>
       <xs:sequence>
-        <xs:element name="asignatura" maxOccurs="unbounded">
-          <xs:complexType>
-            <xs:sequence>
-              <xs:element name="nombre" type="xs:string"/>
-              <xs:element name="contenidos">
-                <xs:complexType>
-                  <xs:sequence>
-                    <xs:element name="unidad" maxOccurs="unbounded">
-                      <xs:complexType>
-                        <xs:sequence>
-                          <xs:element name="nombre" type="xs:string"/>
-                          <xs:element name="descripcion" type="xs:string"/>
-                        </xs:sequence>
-                        <xs:attribute name="tipo" type="xs:string" use="required"/>
-                      </xs:complexType>
-                    </xs:element>
-                  </xs:sequence>
-                </xs:complexType>
-              </xs:element>
-            </xs:sequence>
-          </xs:complexType>
-        </xs:element>
-
-        <xs:element name="modulo" maxOccurs="unbounded">
-          <xs:complexType>
-            <xs:sequence>
-              <xs:element name="nombre" type="xs:string"/>
-              <xs:element name="contenidos">
-                <xs:complexType>
-                  <xs:sequence>
-                    <xs:element name="unidad" maxOccurs="unbounded">
-                      <xs:complexType>
-                        <xs:sequence>
-                          <xs:element name="nombre" type="xs:string"/>
-                          <xs:element name="descripcion" type="xs:string"/>
-                        </xs:sequence>
-                        <xs:attribute name="tipo" type="xs:string" use="required"/>
-                      </xs:complexType>
-                    </xs:element>
-                  </xs:sequence>
-                </xs:complexType>
-              </xs:element>
-            </xs:sequence>
-          </xs:complexType>
-        </xs:element>
-
+        <xs:element ref="asignatura"/>
+        <xs:element ref="modulo"/>
       </xs:sequence>
     </xs:complexType>
   </xs:element>
+
+  <xs:element name="asignatura">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="nombre" type="xs:string"/>
+        <xs:element name="contenidos" type="contenidosType"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+
+  <xs:element name="modulo">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="nombre" type="xs:string"/>
+        <xs:element name="contenidos" type="contenidosType"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+
+  <xs:complexType name="contenidosType">
+    <xs:sequence>
+      <xs:element name="unidad" type="unidadType" minOccurs="0" maxOccurs="unbounded"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="unidadType">
+    <xs:sequence>
+      <xs:element name="titulo" type="xs:string"/>
+      <xs:element name="descripcion" type="xs:string"/>
+    </xs:sequence>
+    <xs:attribute name="tipo" type="xs:string" use="required"/>
+  </xs:complexType>
 
 </xs:schema>

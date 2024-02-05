@@ -1,0 +1,20 @@
+{
+    "alumnado": [
+        {},
+        {
+            "alumno": [
+                {
+                    "NIF": "123456789A",
+                    "Resultado": "apto",
+                    "Observaciones": "Alumno bueno en programación.",
+                    "IP": "192.168.1.2"
+                },
+                {
+                    "NIF": "987654321B",
+                    "Resultado": "No apto",
+                    "IP": "00:1A:2B:3C:4D:5E"
+                }
+            ]
+        }
+    ]
+}

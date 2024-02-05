@@ -1,14 +1,9 @@
-<!ELEMENT bach (asignatura+, modulo+)>
+<!ELEMENT bach (asignatura, modulo)>
 <!ELEMENT asignatura (nombre, contenidos)>
-<!ELEMENT nombre (#PCDATA)>
-<!ELEMENT contenidos (unidad+)>
-<!ELEMENT unidad (nombre, descripcion)>
-<!ATTLIST unidad tipo CDATA #REQUIRED>
-<!ELEMENT descripcion (#PCDATA)>
-
 <!ELEMENT modulo (nombre, contenidos)>
-<!ELEMENT nombre (#PCDATA)>
 <!ELEMENT contenidos (unidad+)>
-<!ELEMENT unidad (nombre, descripcion)>
+<!ELEMENT unidad (titulo, descripcion)>
 <!ATTLIST unidad tipo CDATA #REQUIRED>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT titulo (#PCDATA)>
 <!ELEMENT descripcion (#PCDATA)>

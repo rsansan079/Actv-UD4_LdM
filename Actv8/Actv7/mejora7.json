@@ -1,0 +1,51 @@
+{
+    "informe": [
+        {},
+        {
+            "fecha": "2024-02-01",
+            "ciudades": {
+                "ciudad": [
+                    {
+                        "nombre": "Jerez",
+                        "semestre": [
+                            {
+                                "-numero": "1",
+                                "CochesVendidos": "120"
+                            },
+                            {
+                                "-numero": "2",
+                                "CochesVendidos": "90"
+                            }
+                        ]
+                    },
+                    {
+                        "nombre": "Cádiz",
+                        "semestre": [
+                            {
+                                "-numero": "1",
+                                "CochesVendidos": "200"
+                            },
+                            {
+                                "-numero": "2",
+                                "CochesVendidos": "230"
+                            }
+                        ]
+                    },
+                    {
+                        "nombre": "Sevilla",
+                        "semestre": [
+                            {
+                                "-numero": "1",
+                                "CochesVendidos": "190"
+                            },
+                            {
+                                "-numero": "2",
+                                "CochesVendidos": "200"
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    ]
+}
