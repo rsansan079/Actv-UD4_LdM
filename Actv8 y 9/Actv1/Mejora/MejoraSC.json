@@ -1,0 +1,53 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "type": "object",
+    "properties": {
+        "actores": {
+            "type": "array",
+            "items": {
+                "type": "object",
+                "properties": {
+                    "actor": {
+                        "type": "array",
+                        "items": {
+                            "type": "object",
+                            "properties": {
+                                "nombre": {
+                                    "type": "string",
+                                    "minLength": 1
+                                    },
+                                "apellido1": {
+                                    "type": "string",
+                                    "minLength": 1
+                                    },
+                                "apellido2": {
+                                    "type": ["string", "object"],
+                                    "minLength": 1
+                                    },
+                                "fecha_nac": {
+                                    "type": "string",
+                                    "minLength": 1
+                                    },
+                                "edad": {
+                                    "type": "string",
+                                    "minLength": 1
+                                    },
+                                "peliculas": {
+                                    "type": "string",
+                                    "minLength": 1
+                                    },
+                                "oscar": {
+                                    "type": "string", 
+                                    "minLength": 1
+                                    }
+                            },
+                            "required": ["nombre", "apellido1", "fecha_nac", "edad", "peliculas", "oscar"]
+                        }
+                    }
+                },
+                "required": ["actor"]
+            }
+        }
+    },
+    "required": ["actores"]
+}

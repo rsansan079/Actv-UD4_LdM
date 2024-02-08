@@ -1,0 +1,34 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "type": "object",
+    "properties": {
+    "código": {
+    "type": "id",
+    "minimum": 1
+    },
+    "marca": {
+    "type": "string",
+    "minimum": 1
+    },
+    "modelo": {
+    "type": "string",
+    "minimum": 1
+    },
+    "matricula": {
+        "type": "string",
+        "minimum": 1
+    }, 
+    "potencia": {
+        "type": "string",
+        "minimum": 1
+    },
+     "plazas": {
+        "type": "int",
+        "minimum": 1
+    }, 
+     "puertas": {
+        "type": "int",
+        "minimum": 1
+    }
+   }
+}

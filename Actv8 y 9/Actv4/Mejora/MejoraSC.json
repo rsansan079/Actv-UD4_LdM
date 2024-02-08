@@ -1,0 +1,53 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "type": "object",
+    "properties": {
+        "coche": {
+            "type": "array",
+            "items": {
+                "type": "object",
+                "properties": {
+                    "-codigo": {
+                        "type": "string",
+                        "minLength": 1
+                        },
+                    "descCoche": {
+                        "type": "string",
+                        "minLength": 1
+                        },
+                    "plazas": {
+                        "type": "string",
+                        "minLength": 1
+                        },
+                    "Tipo": {
+                        "type": "array",
+                        "items": {
+                            "type": "object",
+                            "properties": {
+                                "-ID": {
+                                    "type": "string",
+                                    "minLength": 1
+                                    },
+                                "potencia": {
+                                    "type": "string", 
+                                    "minLength": 1
+                                    },
+                                "marca": {
+                                    "type": "string", 
+                                    "minLength": 1
+                                    },
+                                "matricula": {
+                                    "type": "string", 
+                                    "minLength": 1
+                                    }
+                            },
+                            "required": ["-ID", "potencia", "marca", "matricula"]
+                        }
+                    }
+                },
+                "required": ["-codigo", "descCoche", "plazas", "Tipo"]
+            }
+        }
+    },
+    "required": ["coche"]
+}

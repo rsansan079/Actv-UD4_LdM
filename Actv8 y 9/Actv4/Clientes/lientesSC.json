@@ -1,0 +1,53 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "type": "object",
+    "properties": {
+        "cliente": {
+            "type": "array",
+            "items": {
+                "type": "object",
+                "properties": {
+                    "-codigo": {
+                        "type": "string",
+                        "minLength": 1
+                        },
+                    "descCliente": {
+                        "type": "string",
+                        "minLength": 1
+                        },
+                    "numero": {
+                        "type": "string",
+                        "minLength": 1
+                        },
+                    "vivienda": {
+                        "type": "array",
+                        "items": {
+                            "type": "object",
+                            "properties": {
+                                "-ID": {
+                                    "type": "string", 
+                                    "minLength": 1
+                                    },
+                                "coste": {
+                                    "type": "string",
+                                    "minLength": 1
+                                    },
+                                "resumen": 
+                                {"type": "string",
+                                 "minLength": 1
+                                 },
+                                "plazo": {
+                                    "type": "string",
+                                    "minLength": 1
+                                    }
+                            },
+                            "required": ["-ID", "coste", "resumen", "plazo"]
+                        }
+                    }
+                },
+                "required": ["-codigo", "descCliente", "numero", "vivienda"]
+            }
+        }
+    },
+    "required": ["cliente"]
+}

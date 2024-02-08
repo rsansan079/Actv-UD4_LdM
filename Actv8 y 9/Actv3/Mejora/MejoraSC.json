@@ -1,0 +1,53 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "type": "object",
+    "properties": {
+        "fruteria": {
+            "type": "array",
+            "items": {
+                "type": "object",
+                "properties": {
+                    "fruta": {
+                        "type": "array",
+                        "items": {
+                            "type": "object",
+                            "properties": {
+                                "codigo": {
+                                    "type": "string",
+                                    "minLength": 1
+                                    },
+                                "tipo": {
+                                    "type": "string", 
+                                    "minLength": 1
+                                    },
+                                "color": {
+                                    "type": "string", 
+                                    "minLength": 1
+                                    },
+                                "arbol": {
+                                    "type": "string", 
+                                    "minLength": 1
+                                    },
+                                "proveniencia": {
+                                    "type": "string",
+                                    "minLength": 1
+                                    },
+                                "clasificacion": {
+                                    "type": "string",
+                                    "minLength": 1
+                                    },
+                                "cultivo": {
+                                    "type": "string",
+                                    "minLength": 1
+                                    }
+                            },
+                            "required": ["codigo", "tipo", "color", "arbol", "proveniencia", "clasificacion", "cultivo"]
+                        }
+                    }
+                },
+                "required": ["fruta"]
+            }
+        }
+    },
+    "required": ["fruteria"]
+}

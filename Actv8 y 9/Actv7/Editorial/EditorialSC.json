@@ -1,0 +1,52 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "type": "object",
+    "properties": {
+        "informe": {
+            "type": "array",
+            "items": {
+                "type": "object",
+                "properties": {
+                    "fecha": {"type": "string", "format": "date"},
+                    "regiones": {
+                        "type": "object",
+                        "properties": {
+                            "region": {
+                                "type": "array",
+                                "items": {
+                                    "type": "object",
+                                    "properties": {
+                                        "nombre": {
+                                            "type": "string",
+                                            "minLength": 1
+                                            },
+                                        "trimestre": {
+                                            "type": "array",
+                                            "items": {
+                                                "type": "object",
+                                                "properties": {
+                                                    "-numero": {
+                                                        "type": "string",
+                                                        "minLength": 1
+                                                        },
+                                                    "librosVendidos": {
+                                                        "type": ["string", "integer"]
+                                                        }
+                                                },
+                                                "required": ["-numero", "librosVendidos"]
+                                            }
+                                        }
+                                    },
+                                    "required": ["nombre", "trimestre"]
+                                }
+                            }
+                        },
+                        "required": ["region"]
+                    }
+                },
+                "required": ["fecha", "regiones"]
+            }
+        }
+    },
+    "required": ["informe"]
+}

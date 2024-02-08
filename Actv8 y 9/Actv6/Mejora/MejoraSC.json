@@ -1,0 +1,78 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "type": "object",
+    "properties": {
+        "bach": {
+            "type": "array",
+            "items": {
+                "type": "object",
+                "properties": {
+                    "asignatura": {
+                        "type": "object",
+                        "properties": {
+                            "nombre": {
+                                "type": "string",
+                                       "minLength": 1
+                                       },
+                            "contenidos": {
+                                "type": "object",
+                                "properties": {
+                                    "unidad": {
+                                        "type": "array",
+                                        "items": {
+                                            "type": "object",
+                                            "properties": {
+                                                "-tipo": {
+                                                    "type": "string", 
+                                                    "minLength": 1
+                                                    },
+                                                "titulo": {
+                                                    "type": "string", 
+                                                    "minLength": 1
+                                                    },
+                                                "descripcion": {
+                                                    "type": "string", 
+                                                    "minLength": 1
+                                                    }
+                                            },
+                                            "required": ["-tipo", "titulo", "descripcion"]
+                                        }
+                                    }
+                                },
+                                "required": ["unidad"]
+                            }
+                        },
+                        "required": ["nombre", "contenidos"]
+                    },
+                    "modulo": {
+                        "type": "object",
+                        "properties": {
+                            "nombre": {"type": "string", "minLength": 1},
+                            "contenidos": {
+                                "type": "object",
+                                "properties": {
+                                    "unidad": {
+                                        "type": "array",
+                                        "items": {
+                                            "type": "object",
+                                            "properties": {
+                                                "-tipo": {"type": "string", "minLength": 1},
+                                                "titulo": {"type": "string", "minLength": 1},
+                                                "descripcion": {"type": "string", "minLength": 1}
+                                            },
+                                            "required": ["-tipo", "titulo", "descripcion"]
+                                        }
+                                    }
+                                },
+                                "required": ["unidad"]
+                            }
+                        },
+                        "required": ["nombre", "contenidos"]
+                    }
+                },
+                "required": ["asignatura", "modulo"]
+            }
+        }
+    },
+    "required": ["bach"]
+}

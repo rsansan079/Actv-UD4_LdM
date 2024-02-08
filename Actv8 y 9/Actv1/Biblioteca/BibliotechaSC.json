@@ -1,0 +1,53 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "type": "object",
+    "properties": {
+        "biblioteca": {
+            "type": "array",
+            "items": {
+                "type": "object",
+                "properties": {
+                    "libro": {
+                        "type": "array",
+                        "items": {
+                            "type": "object",
+                            "properties": {
+                                "cod_libro": {
+                                    "type": "string",
+                                    "minLength": 1
+                                    },
+                                "titulo": {
+                                    "type": "string",
+                                    "minLength": 1
+                                    },
+                                "editorial": {
+                                    "type": "string",
+                                    "minLength": 1
+                                    },
+                                "edicion": {
+                                    "type": "string",
+                                    "minLength": 1
+                                    },
+                                "ISBN": {
+                                    "type": "string", 
+                                    "minLength": 1
+                                    },
+                                "num_pg": {
+                                    "type": "string", 
+                                    "minLength": 1
+                                    },
+                                "autor": {
+                                    "type": "string", 
+                                    "minLength": 1
+                                    }
+                            },
+                            "required": ["cod_libro", "titulo", "editorial", "edicion", "ISBN", "num_pg", "autor"]
+                        }
+                    }
+                },
+                "required": ["libro"]
+            }
+        }
+    },
+    "required": ["biblioteca"]
+}

@@ -1,0 +1,40 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "type": "object",
+    "properties": {
+        "alumnado": {
+            "type": "array",
+            "items": {
+                "type": "object",
+                "properties": {
+                    "alumno": {
+                        "type": "array",
+                        "items": {
+                            "type": "object",
+                            "properties": {
+                                "NIF": {
+                                    "type": "string", 
+                                    "minLength": 1
+                                    },
+                                "Resultado": {
+                                    "type": "string",
+                                    "minLength": 1
+                                    },
+                                "Observaciones": {
+                                    "type": "string"
+                                    },
+                                "IP": {
+                                    "type": "string",
+                                    "minLength": 1
+                                    }
+                            },
+                            "required": ["NIF", "Resultado", "IP"]
+                        }
+                    }
+                },
+                "required": ["alumno"]
+            }
+        }
+    },
+    "required": ["alumnado"]
+}

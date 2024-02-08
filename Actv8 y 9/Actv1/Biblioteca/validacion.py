@@ -72,7 +72,7 @@ archivo_json = '''
                     "autor": "Gabriel Garcia"
                 },
                 {
-                    "cod_libro": "33643",
+                    "cod_libro": "",
                     "titulo": "Poesías Completas",
                     "editorial": "Debolsillo",
                     "edicion": "ilustrada",

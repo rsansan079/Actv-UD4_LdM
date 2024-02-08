@@ -1,0 +1,48 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "type": "object",
+    "properties": {
+        "libros": {
+            "type": "array",
+            "items": {
+                "type": "object",
+                "properties": {
+                    "libro": {
+                        "type": "array",
+                        "items": {
+                            "type": "object",
+                            "properties": {
+                                "ISBN": {
+                                    "type": "string",
+                                    "minLength": 1
+                                    },
+                                "Titulo": {
+                                    "type": "string", 
+                                    "minLength": 1
+                                    },
+                                "Autor": {
+                                    "type": "string",
+                                    "minLength": 1
+                                    },
+                                "Editorial": {
+                                    "type": "string",
+                                    "minLength": 1
+                                    },
+                                "Observaciones": {
+                                    "type": "string"
+                                    },
+                                "Precio": {
+                                    "type": "string",
+                                    "minLength": 1
+                                    }
+                            },
+                            "required": ["ISBN", "Titulo", "Autor", "Editorial", "Precio"]
+                        }
+                    }
+                },
+                "required": ["libro"]
+            }
+        }
+    },
+    "required": ["libros"]
+}
